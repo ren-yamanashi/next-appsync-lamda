@@ -1,0 +1,10 @@
+type Todo {
+  id: ID!
+  title: String!
+  completed: Boolean!
+  createdAt: String!
+}
+
+type Query {
+  getTodos: [Todo!]!
+}
